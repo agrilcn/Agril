@@ -25,6 +25,7 @@ public class DepartemenApiController {
                 EmptyResultDataAccessException ertdao) {
             return ResponseEntity.noContent().build();
         }
+    }
 
     @GetMapping("list")
     public List<Department> list() {
@@ -32,12 +33,12 @@ public class DepartemenApiController {
     }
 
     @PostMapping("/save")
-    public ResponseEntity<?> save(RequestBody Department department) {
-        departemen = this.repo.insert(dep);
-        if (departement.getId() == null) {
+    public ResponseEntity<?> save(@RequestBody Department department) {
+        department = this.repo.insert(department);
+        if (department.getId() == null) {
             return ResponseEntity.internalServerError().body("Gak Tau Errornya Apa");
         } else {
-            return ResponseEntity.ok(departemen);
+            return ResponseEntity.ok(department);
         }
     }
 }

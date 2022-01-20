@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/department")
 public class IndexApiController {
-    @GetMapping("/show"
-    public ResponseEntity<Department> findBy {
-        Department department= new D
+    @GetMapping("/show")
+    public ResponseEntity<Department> findBy(){
+        Department department = new Department();
+        return null;
     }
 }

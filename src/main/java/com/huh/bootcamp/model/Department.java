@@ -24,7 +24,7 @@ public class Department {
                 '}';
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
