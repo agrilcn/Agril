@@ -1,7 +1,7 @@
-package com.manusiaikan.bootcamp;
+package com.huh.bootcamp;
 
-import com.manusiaikan.bootcamp.model.Department;
-import com.manusiaikan.bootcamp.repository.DepartmentJdbc;
+import com.huh.bootcamp.model.Department;
+import com.huh.bootcamp.repository.DepartmentJdbc;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

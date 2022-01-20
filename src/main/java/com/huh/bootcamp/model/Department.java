@@ -1,4 +1,4 @@
-package com.manusiaikan.bootcamp.model;
+package com.huh.bootcamp.model;
 
 public class Department {
     private Integer id;

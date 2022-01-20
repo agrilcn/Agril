@@ -1,7 +1,7 @@
-package com.manusiaikan.bootcamp.controller;
+package com.huh.bootcamp.controller;
 
-import com.manusiaikan.bootcamp.model.Department;
-import com.manusiaikan.bootcamp.repository.DepartmentJdbc;
+import com.huh.bootcamp.model.Department;
+import com.huh.bootcamp.repository.DepartmentJdbc;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

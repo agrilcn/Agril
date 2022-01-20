@@ -1,4 +1,4 @@
-package com.manusiaikan.bootcamp;
+package com.huh.bootcamp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
